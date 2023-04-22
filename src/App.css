@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #869cc9;
+  color:white;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #87a2da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-color:rgb(255, 255, 255);
+}
+#main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color:rgb(236, 154, 46);
+
+}
+.main-block{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #b43093;
+}
+button{
+  border-radius: 8px;
+  height: 30px;
 }
