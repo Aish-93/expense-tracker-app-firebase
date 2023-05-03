@@ -5,6 +5,7 @@ import Income from './components/Income';
 import Task from './components/Task';
 
 import Test from './components/Test';
+import Btn from './components/Btn';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
     <div id="main">
       <Expense/>
       <Income />
+      <Btn/>
       {/* <Test/> */}
       
     </div>
